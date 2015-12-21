@@ -14,8 +14,10 @@ caffe.set_device(0) # select GPU device if multiple devices exist
 
 from deepdreaming import *
 
-
-UPLOAD_FOLDER = '/home/spoid/deepdream/deepdream/dreams/'
+pathname = os.path.dirname(sys.argv[0])
+pathname = os.path.abspath(pathname)
+print(pathname, file=sys.stderr)
+UPLOAD_FOLDER = pathname + "/dreams/"
 ALLOWED_EXTENSIONS = set(['jpg', 'jpeg', 'JPG', 'JPEG'])
 
 
