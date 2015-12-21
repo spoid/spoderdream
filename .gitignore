@@ -1,0 +1,10 @@
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.ipynb
+*.prototxt
+*.txt
+*.pyc
+*.png
+*.gif
